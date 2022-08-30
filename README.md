@@ -2,8 +2,11 @@
 ### (2022.08.08 ~ 2022.09.16 11:59)
 ### 주제 : 유기분자 구조로부터 Reorganization Energy를 예측하는 AI 알고리즘 개발
 
-### Process
+### 2차 시도
+(mol_file에서 무언가를 얻어내는것 보다는 smiles을 활용하는것이 상당히 높은 가능성을 가지는것 같다.)
 
+
+### 1차 시도
 1. data
     1.1 SMILES (분자구조식)
 		1.1.1 SMILES files -> to some tensor
@@ -18,6 +21,9 @@
 	- (,4) :mol -> location
 	- (,3) :mol ->  bond
 	- (,2048) : SMILES -> tensor
-	tool ? 
 		- keras
 		- pytorch
+
+https://dacon.io/competitions/official/235789/codeshare/4043?page=1&dtype=recent
+
+
