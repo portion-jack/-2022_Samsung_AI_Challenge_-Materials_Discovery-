@@ -4,7 +4,14 @@
 
 ### 2차 시도
 (mol_file에서 무언가를 얻어내는것 보다는 smiles을 활용하는것이 상당히 높은 가능성을 가지는것 같다.)
+1. data
+	1.1 SMILES 
+		- NLP 처리 하여 tensor형태로 변환
 
+2. modeling
+	2.1 tensor -> GRU
+
+# (15/450) with acc = 15.1
 
 ### 1차 시도
 1. data

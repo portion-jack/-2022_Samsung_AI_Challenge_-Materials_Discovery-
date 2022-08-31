@@ -1,0 +1,7 @@
+data/
+data.zip
+preprocessed_data/
+.idea/
+
+.ipynb_checkpoints
+.DS_Store
