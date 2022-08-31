@@ -15,13 +15,13 @@
 
 ### 1차 시도
 1. data
-    1.1 SMILES (분자구조식)
-		1.1.1 SMILES files -> to some tensor
+    - 1.1 SMILES (분자구조식)
+		- 1.1.1 SMILES files -> to some tensor
 			-> by rdkit (reference to 2021 Competition)
-    1.2 .mol 파일 (status={ex,g}) 
-        1.2.1 atom 개수 bond 개수 -> done
-        1.2.2 atom들의 location, element_type (x,y,z,element_type) -> done
-        1.2.3 bond결합 atom구조, (atom_1,atom_2,bond_type) -> done
+    - 1.2 .mol 파일 (status={ex,g}) 
+        - 1.2.1 atom 개수 bond 개수 -> done
+        - 1.2.2 atom들의 location, element_type (x,y,z,element_type) -> done
+        - 1.2.3 bond결합 atom구조, (atom_1,atom_2,bond_type) -> done
 
 2. modeling
 	- (,2) :mol -> count
