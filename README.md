@@ -29,8 +29,10 @@
 	- (,3) :mol ->  bond
 	- (,2048) : SMILES -> tensor
 		- keras
-		- pytorch
+		- input shape (,2) (,4) (,3) (,2048)
 
-https://dacon.io/competitions/official/235789/codeshare/4043?page=1&dtype=recent
+keras모듈로 GRU를 사용하여 답안 제시
+개인으로 참여하여
+213개의 팀중 17위
 
 
