@@ -46,4 +46,7 @@ keras모듈로 GRU를 사용하여 답안 제시
 개인으로 참여하여
 213개의 팀중 17위
 
+<img width="1098" alt="image" src="https://user-images.githubusercontent.com/112222918/202943257-375fe0b3-77a9-4def-8f23-785cf2760992.png">
+
+
 
